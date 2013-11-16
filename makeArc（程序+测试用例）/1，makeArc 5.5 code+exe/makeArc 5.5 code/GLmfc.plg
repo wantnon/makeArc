@@ -1,0 +1,168 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GLmfc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GLmfc.res" /d "NDEBUG" /d "_AFXDLL" "E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\GLmfc.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP840D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/GLmfc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\GLmfc.cpp"
+"E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp"
+"E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\setingDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP840D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP840E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/GLmfc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP840E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP840F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/GLmfc.pdb" /machine:I386 /out:"Release/GLmfc.exe" 
+".\Release\GLmfc.obj"
+".\Release\mainDlg.obj"
+".\Release\setingDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\GLmfc.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP840F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GLmfc.cpp
+mainDlg.cpp
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(59) : warning C4183: 'makePlane': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(89) : warning C4183: 'setp': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(94) : warning C4183: 'setvID': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(120) : warning C4183: 'makequad': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(194) : warning C4183: 'show': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(209) : warning C4183: 'show_beg_end': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(250) : warning C4183: 'pullPointsToLine': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(259) : warning C4183: 'makeLine': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(284) : warning C4183: 'clearLineList': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(298) : warning C4183: 'cal_c': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(302) : warning C4183: 'addvert': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(316) : warning C4183: 'ridSameNeighbour': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(332) : warning C4183: 'calDirForEachVert_xz': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\func.h(118) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\func.h(468) : warning C4101: 's' : unreferenced local variable
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\func.h(468) : warning C4101: 't' : unreferenced local variable
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\texture.h(24) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(41) : warning C4183: 'clearIDList': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(63) : warning C4183: 'calTriPolygenNorm': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(153) : warning C4183: 'calTexCoord': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(206) : warning C4183: 'calNorms': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(261) : warning C4183: 'show_rough0': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(341) : warning C4183: 'clearMatElms': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(351) : warning C4183: 'clearMat': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(365) : warning C4183: 'clearIDListForEachCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(377) : warning C4183: 'removeEmptyCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(442) : warning C4183: 'caluOfEachCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(514) : warning C4183: 'cutNeedcutCells': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(528) : warning C4183: 'polygenlize': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(541) : warning C4183: 'calTriPolygenNorm': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(553) : warning C4183: 'calTexCoord': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(672) : warning C4183: 'markCorner': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(686) : warning C4183: 'UnmarkCorner': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(700) : warning C4183: 'calNorms': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(729) : warning C4183: 'emptyHsmooth': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(793) : warning C4183: 'calInnerLayerID': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(805) : warning C4183: 'fillH_innerLayerID': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(845) : warning C4183: 'HsmoothEx': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(954) : warning C4183: 'Hsmooth': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1158) : warning C4183: 'roofsmooth': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1219) : warning C4183: 'markJump': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1249) : warning C4183: 'transformBack': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1280) : warning C4183: 'initOcH': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1364) : warning C4183: 'makeUp_lowest': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1484) : warning C4183: 'makeGrid': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1675) : warning C4183: 'showMesh_rough3': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1766) : warning C4183: 'showMesh_rough4': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1833) : warning C4183: 'showMesh_rough5': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1856) : warning C4183: 'showMesh_rough0': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1873) : warning C4183: 'reset': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1960) : warning C4183: 'toWorld': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(1964) : warning C4183: 'toWorld': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2089) : warning C4183: 'setvID': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2153) : warning C4183: 'show': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2200) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2242) : warning C4183: 'makeIDgrid': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2346) : warning C4183: 'copy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\class.h(2349) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\qTree.h(31) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\qTree.h(44) : warning C4183: 'setTextureRoof': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\qTree.h(48) : warning C4183: 'setTextureWall': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\qTree.h(70) : warning C4183: 'makeqTree': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\qTree.h(263) : warning C4183: 'cutAndDrawqTree': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(29) : warning C4183: 'clearIDList': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(48) : warning C4183: 'makeij': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(91) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(97) : warning C4183: 'clearGroundijset': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(167) : warning C4183: 'makeRoughGroundGrid': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(182) : warning C4183: 'caluOfEachCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(193) : warning C4183: 'clearIDListForEachCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(255) : warning C4183: 'markGround': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(276) : warning C4183: 'getGroundijsetAndDestroyijsetList': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(296) : warning C4183: 'cncTest': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(355) : warning C4183: 'markSeed': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(409) : warning C4183: 'showGround': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(442) : warning C4183: 'Hsmooth_strong': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(504) : warning C4183: 'markJump': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(613) : warning C4183: 'makeGrid': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(635) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(676) : warning C4183: 'caluOfEachCell': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(700) : warning C4183: 'init': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(746) : warning C4183: 'makeRoughGroundGrid': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundgrid.h(801) : warning C4183: 'showGround': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundBlock.h(17) : warning C4183: 'setTexture': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundBlock.h(30) : warning C4183: 'destroy': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundBlock.h(34) : warning C4183: 'updateCampos': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\groundBlock.h(59) : warning C4183: 'makeGroundBlock': member function definition looks like a ctor, but name does not match enclosing class
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_cal_minH_and_rid_cloud_too_low.h(52) : warning C4508: 'main_cal_minH_and_rid_cloud_too_low' : function should return a value; 'void' return type assumed
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(48) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(61) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(103) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(105) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(107) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(108) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\simpleClass.h(4) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+        E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_save_model.h(50) : see reference to class template instantiation 'myvector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >' being compiled
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\WF_load_model.h(284) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1406) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1407) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1408) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1409) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1419) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+E:\lidar建模\makeArc（程序+测试用例）\1，makeArc 5.5 code+exe\makeArc 5.5 code\mainDlg.cpp(1946) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+setingDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+Creating command line "bscmake.exe /nologo /o"Release/GLmfc.bsc"  ".\Release\StdAfx.sbr" ".\Release\GLmfc.sbr" ".\Release\mainDlg.sbr" ".\Release\setingDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GLmfc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
